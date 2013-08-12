@@ -38,6 +38,8 @@ Spork.prefork do
     # rspec-rails.
     config.infer_base_class_for_anonymous_controllers = false
 
+    # Rails.application.routes.default_url_options[:host] = 'www.example.com'
+
     config.include Rails.application.routes.url_helpers
   end
 end

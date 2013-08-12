@@ -35,6 +35,8 @@ SampleApp::Application.configure do
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
 
+  # Rails.application.routes.default_url_options[:host] = 'www.example.com'
+
   # Speed up tests by lowering BCrypt's cost function.
   require 'bcrypt'
   silence_warnings do
